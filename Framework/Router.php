@@ -26,7 +26,6 @@
 				//return preg_match("#^" . $route->path . "$#", $url) && $route->method == $method;
 				return  $route->path==$url && $route->method == $method;
 			});
-			var_dump($routeFound);
 			$numberRoute = count($routeFound);
 			if($numberRoute > 1)
 			{

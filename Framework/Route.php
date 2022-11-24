@@ -51,8 +51,7 @@
 		public function run($httpRequest,$config)
 		{
 			$controller = null;
-			$controllerName = $this->_controller . "Controller";
-			var_dump($controllerName);
+			$controllerName = $this->_controller . "Controller";			
             if(class_exists($controllerName))
             {
 				
