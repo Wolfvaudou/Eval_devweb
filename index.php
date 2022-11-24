@@ -15,7 +15,7 @@
 	});
 	try
 	{
-		$httpRequest = new HttpRequest();
+		$httpRequest = new HttpRequest("/connexion","GET");
         $router = new Router($httpRequest);
         $httpRequest->setRoute($router->findRoute($httpRequest,$config->basepath));
         $httpRequest->run($config);

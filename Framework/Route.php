@@ -52,6 +52,7 @@
 		{
 			$controller = null;
 			$controllerName = $this->_controller . "Controller";
+			var_dump($controllerName);
             if(class_exists($controllerName))
             {
 				

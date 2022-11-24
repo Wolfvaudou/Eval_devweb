@@ -1,8 +1,16 @@
 [{
-	"path" : "/",
-	"controller" : "Home",
+	"path" : "/connexion",
+	"controller" : "connexion",
 	"action" : "Home",
 	"method" : "GET",
+	"param" : [],
+	"manager": []
+},
+{
+	"path" : "/connexion",
+	"controller" : "connexion",
+	"action" : "Home",
+	"method" : "POST",
 	"param" : [],
 	"manager": []
 }]
