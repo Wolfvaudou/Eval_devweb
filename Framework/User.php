@@ -1,9 +1,8 @@
 <?php
 	class User
 	{
-		private $id;
-		private $title;
-		private $description;
+		private $username;
+		private $password;
 		
 		public function __construct()
 		{
