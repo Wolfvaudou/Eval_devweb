@@ -1,8 +1,7 @@
 <?php
 	class User
 	{
-		private $id;
-		private $mail;
+		private $username;
 		private $password;
 		
 		public function __construct()
