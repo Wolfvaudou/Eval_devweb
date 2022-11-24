@@ -1,7 +1,7 @@
 [{
 	"path" : "/connexion",
 	"controller" : "connexion",
-	"action" : "Home",
+	"action" : "connexion",
 	"method" : "GET",
 	"param" : [],
 	"manager": []
@@ -9,7 +9,7 @@
 {
 	"path" : "/connexion",
 	"controller" : "connexion",
-	"action" : "Home",
+	"action" : "Authenticate",
 	"method" : "POST",
 	"param" : [],
 	"manager": []

@@ -1,4 +1,4 @@
-<form  action="Home" method="post"> 
+<form  action="connexion" method="POST"> 
 	<label>Identifiant</label>
 	<input type="text" name="login" />
 	<label>Mot de passe</label>

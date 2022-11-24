@@ -25,6 +25,7 @@
 			$routeFound = array_filter($this->_listRoute,function($route) use ($url,$method){
 				//return preg_match("#^" . $route->path . "$#", $url) && $route->method == $method;
 				return  $route->path==$url && $route->method == $method;
+				
 			});
 			$numberRoute = count($routeFound);
 			if($numberRoute > 1)

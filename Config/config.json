@@ -8,11 +8,9 @@
 		"Model/Entities"
 	],
 	"database":  {
-		"name": "Mypage",
-		"dbname": "mypage",
-		"host": "localhost",
-		"user": "mypage",
-		"password": "mypagepwd"
+		"name": "User",
+		"dbname": "User",
+		"host": "localhost"
 	},
 	"basepath" : "/eval_devweb_loup"
 }
