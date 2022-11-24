@@ -9,6 +9,8 @@
 		}
 		public function Authenticate()
 		{
-			var_dump($_POST["login"]);
+			$this->connexionManager->Login($_POST["login1"],$_POST["mypassword"]);
+			
+
 		}
 	}
