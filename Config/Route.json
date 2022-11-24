@@ -12,5 +12,5 @@
 	"action" : "Authenticate",
 	"method" : "POST",
 	"param" : [],
-	"manager": []
+	"manager": ["ConnexionManager"]
 }]

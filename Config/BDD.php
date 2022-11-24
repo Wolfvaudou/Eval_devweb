@@ -15,7 +15,6 @@
 		private function __construct($datasource)
 		{
 			$this->_bdd = new PDO('mysql:dbname=' . $datasource->dbname . ';host=' . $datasource->host,
-								  $datasource->user,
-								  $datasource->password);
+		$datasource->user,$datasource->password);
 		}
 	}

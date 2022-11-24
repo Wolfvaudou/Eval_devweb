@@ -9,8 +9,11 @@
 	],
 	"database":  {
 		"name": "User",
-		"dbname": "User",
-		"host": "localhost"
+		"dbname": "user",
+		"host": "localhost",
+		"user": "root",
+		"password":"root"
+
 	},
 	"basepath" : "/eval_devweb_loup"
 }
