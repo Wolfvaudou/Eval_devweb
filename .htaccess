@@ -1,0 +1,4 @@
+RewriteEngine On
+
+FallbackResource /Eval_devweb_loup/index.php
+
