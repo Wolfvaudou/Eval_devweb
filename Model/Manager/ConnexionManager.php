@@ -11,6 +11,11 @@
 			$req = $this->_bdd->prepare("SELECT * FROM user WHERE email=? AND passwords=? ");
 			$req->execute(array($mail,$password));  
 			$req->setFetchMode(PDO::FETCH_CLASS|PDO::FETCH_PROPS_LATE,"User");
-			echo count($req->fetch()->email);
+			if($req->fetch()){
+				return 1;
+			}
+			else{
+				return 0;
+			}
 		}
 	}	

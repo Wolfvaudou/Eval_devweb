@@ -1,7 +1,7 @@
 <?php
 	class BaseController
 	{
-		private $_httpRequest;
+		protected $_httpRequest;
 		protected $_param;
 		private $_config;
 		private $_FileManager;

@@ -5,11 +5,13 @@
     {
 		public function connexion()
 		{
-			$this->view("connexion","Page de connexion");	
+			$this->view("connexion","connection page");	
 		}
 		public function Authenticate()
 		{
-			$this->connexionManager->Login($_POST["login1"],$_POST["mypassword"]);
+			$results=$this->connexionManager->Login($_POST["login1"],$_POST["mypassword"]);
+			$this->addParam("result",$results);
+			$this->view("connexionresp","connection page");	
 			
 
 		}

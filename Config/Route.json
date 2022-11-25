@@ -13,4 +13,13 @@
 	"method" : "POST",
 	"param" : [],
 	"manager": ["connexionManager"]
+	
+},
+{
+	"path" : "/admin",
+	"controller" : "admin",
+	"action" : "admin",
+	"method" : "GET",
+	"param" : [],
+	"manager": []
 }]
