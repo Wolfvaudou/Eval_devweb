@@ -1,4 +1,6 @@
 <?php
+
+session_destroy();
 switch($result){
 				case 0:?>
 					<h3>"Accès denied"</h3>
@@ -6,7 +8,7 @@ switch($result){
                      break;
 				case 1:?>
 					<h3>"Acces granted"<h3>
-					<a href="/admin"><input type="button" value="accéder à espace admin"></a>
+					<a href="admin"><input type="button" name="changepath"  value="accéder à espace admin"></a>
 <?php
                      break;
 				default:?>

@@ -17,8 +17,17 @@
 },
 {
 	"path" : "/admin",
-	"controller" : "admin",
+	"controller" : "Admin",
 	"action" : "admin",
+	"method" : "GET",
+	"param" : [],
+	"manager": []
+}
+,
+{
+	"path" : "/",
+	"controller" : "Home",
+	"action" : "Home",
 	"method" : "GET",
 	"param" : [],
 	"manager": []
